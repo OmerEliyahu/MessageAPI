@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\omer\PycharmProjects\Herolo\db.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="herolo" uuid="c3445d35-9beb-444c-9468-57e2ca0c3698">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-145-224-156.compute-1.amazonaws.com:5432/dbi8im9t07rhrn</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
