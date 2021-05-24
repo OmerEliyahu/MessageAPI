@@ -1,1 +1,1 @@
-gunicorn Herolo.wsgi --log-file
+gunicorn Herolo/Herolo.wsgi --log-file
