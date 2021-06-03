@@ -21,7 +21,7 @@ def send_message_api(request: Request) -> Response:
     subject = request.data['subject']
     message = request.data['message']
     message = Message.objects.create(sender=request.user, receiver=receiver, message=message, subject=subject)
-    return Response(f'message {message.id}  created successfully')
+    return Response(f'message {message.id} created successfully')
 
 
 @api_view(['GET'])
